@@ -36,7 +36,7 @@ A robust RESTful API built with **FastAPI** and **SQLAlchemy** for managing pers
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/expense-tracker.git](https://github.com/your-username/expense-tracker.git)
+   git clone https://github.com/pratham636/Expense-Tracker-API.git
    cd expense-tracker
 
    2. **Set up virtual environment:**
