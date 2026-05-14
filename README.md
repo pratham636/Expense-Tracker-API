@@ -31,14 +31,14 @@ A robust RESTful API built with **FastAPI** and **SQLAlchemy** for managing pers
 ├── auth.py           # API router for authentication endpoints
 ├── expenses.py       # API router for expense CRUD endpoints
 └── README.md         # Project documentation
-
+```
 ## ⚙️ Installation & Setup
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/pratham636/Expense-Tracker-API.git
    cd expense-tracker
-
+```
    2. **Set up virtual environment:**
    ```bash
    python -m venv venv
@@ -46,15 +46,15 @@ A robust RESTful API built with **FastAPI** and **SQLAlchemy** for managing pers
    venv\Scripts\activate
    # Mac/Linux:
    source venv/bin/activate
-
+```
   3. **Install dependencies:**
    ```bash
    pip install fastapi uvicorn sqlalchemy pymysql pydantic python-jose[cryptography] passlib[bcrypt]
-
+```
     4. **Run the application:**
    ```bash
    uvicorn main:app --reload
-
+```
    ## 🚀 Usage & Docs
 
 * **Swagger UI:** http://127.0.0.1:8000/docs
